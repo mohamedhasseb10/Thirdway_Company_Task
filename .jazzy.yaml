@@ -1,0 +1,16 @@
+# Ordered by output of `jazzy --help config`
+
+output: JazzyDocumentation_Docs
+clean: true
+xcodebuild_arguments:
+ - -project
+ - ThirdwayTask.xcodeproj
+ - -scheme
+ - ThirdwayTask
+ - CODE_SIGNING_ALLOWED = YES
+copyright: Copyright © 2022 MohamedHaseeb. All rights reserved.
+include:
+  - ThirdwayTask/Features/ProductDetails/ProductDetailsViewController.swift
+  - ThirdwayTask/Features/ProductDetails/ProductDetailsViewModel.swift
+min_acl: internal
+theme: apple

@@ -1,0 +1,24 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "productDescription": "1- Lorem ipsum",
+            "image": {
+                "width": 150,
+                "height": 331,
+                "url": "https://i.picsum.photos/id/1"
+            },
+            "price": 754
+        },
+        {
+            "id": 2,
+            "productDescription": "2- Lorem ipsum",
+            "image": {
+                "width": 150,
+                "height": 308,
+                "url": "https://i.picsum.photos/id/2"
+            },
+            "price": 935
+        }
+    ]
+}

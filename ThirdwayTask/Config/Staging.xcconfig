@@ -1,0 +1,16 @@
+//
+//  Staging.xcconfig
+//  ThirdwayTask
+//
+//   Created by Mohamed Hasseb on 27/01/2022.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// Server URL
+BASE_URL = https:/$()/jsonkeeper.com
+
+// App Settings
+APP_NAME = ThirdwayTask
+APP_BUNDLE_ID = com.haseeb.Thirdway
